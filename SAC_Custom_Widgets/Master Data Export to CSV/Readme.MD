@@ -86,17 +86,3 @@ Click **👁 Preview (20 rows)** to fetch and display the first 20 rows before r
 
 For dimensions with more than 100,000 members, the widget automatically splits the output into multiple files (`_part1.csv`, `_part2.csv`, …) to prevent browser memory issues.
 
----
-
-## Files
-
-```
-Export Master data CSV/
-├── /
-│   ├── manifest.json          Widget metadata and property definitions
-│   ├── main.js                Widget runtime (web component)
-│   └── builder.js             Builder panel source (not currently active)
-├── dim-master-export-v1.0.1.zip   Packaged widget (ready to upload)
-├── test_upload_widget.js      Node.js script to upload to QRC-UAT
-└── README.md                  This file
-```
