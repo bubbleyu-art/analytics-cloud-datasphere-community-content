@@ -17,7 +17,7 @@ A SAP Analytics Cloud custom widget that exports dimension master data to CSV us
 
 ## Installation
 
-1. Package `src/manifest.json` and `src/main.js` into a `.zip` file.
+1. Package `/manifest.json` and `/main.js` into a `.zip` file.
 2. In SAC, go to **Stories → Custom Widgets** and upload the zip.
 3. Or use the upload script: `node test_upload_widget.js`
 
