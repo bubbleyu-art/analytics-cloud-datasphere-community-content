@@ -92,7 +92,7 @@ For dimensions with more than 100,000 members, the widget automatically splits t
 
 ```
 Export Master data CSV/
-├── src/
+├── /
 │   ├── manifest.json          Widget metadata and property definitions
 │   ├── main.js                Widget runtime (web component)
 │   └── builder.js             Builder panel source (not currently active)
